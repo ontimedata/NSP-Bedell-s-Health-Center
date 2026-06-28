@@ -446,6 +446,7 @@ p{ color:var(--ink-soft); }
 }
 
 @media (max-width:760px){
+  .hero-figure{ display:none; }   /* hide hero photo on mobile */
   .nav-links{
     position:fixed; inset:78px 0 auto 0; flex-direction:column; gap:0;
     background:var(--cream); padding:1rem 26px 1.6rem; box-shadow:var(--shadow-md);
